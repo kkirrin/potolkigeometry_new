@@ -1,0 +1,38 @@
+.services__list li img {
+    width: -webkit-fill-available;
+}
+
+.projects__list li img {
+    width: -webkit-fill-available;;
+}
+
+.services__list {
+    padding: 20px;
+}
+
+
+@media(max-width:769px) {
+    .services__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.install__list li div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.install__list li div img {
+    z-index: 10;
+}
+
+@media(max-width:450px) {
+    .team__list div div {
+        width: -webkit-fill-available;
+    }    
+}

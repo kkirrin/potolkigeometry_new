@@ -1,0 +1,52 @@
+.main__image {
+    object-fit: fill;
+}
+
+.hero__title__container {
+    padding-top: 80px;
+}
+
+
+.hero__title__container h2 {
+    line-height: 1.6;
+}
+
+@media(max-width:1440px) {
+    .hero__title__container {
+        padding-top: 100px;
+    }
+}  
+
+@media(max-width:1013px) {
+    .hero__title__container {
+        padding-top: 200px;
+    }
+}  
+
+
+@media(max-width:769px) {
+    .hero__title__container {
+        padding-top: 113px;
+    }
+}  
+
+
+@media(max-width:425px) {
+    .hero__title__container {
+        padding-top: 100px;
+    }
+}  
+
+@media(max-width:1024px) {
+    .main__image {
+        padding: 20px;
+        height: 50vh;   
+    }
+}  
+
+@media(max-width:1024px) {
+    .main__image {
+        padding: 20px;
+        height: 50vh;   
+    }
+}  

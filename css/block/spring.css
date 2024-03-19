@@ -1,0 +1,237 @@
+
+/* Это для галереи */
+.spring__list li img {
+    width: -webkit-fill-available;
+}
+
+.spring__list li:nth-child(n+2) {
+    width: 305px;
+}
+
+@media(max-width:450px) {
+    .spring__list li:nth-child(n+2) {
+        width: 290px;
+    }
+}
+
+.spring__list li:nth-child(2) {
+    width: 600px;
+}
+
+.spring__list li:nth-child(7) {
+    width: 600px !important;
+}
+
+@media(max-width:769px) {
+    .spring__list li:first-of-type {
+        width: 750px !important;
+    }
+    .spring__list li {
+        width: 370px !important;
+    }
+    .spring__list li:nth-child(7) {
+        width: 370px !important;
+    }
+    
+}
+
+
+@media(max-width:672px) {
+    .spring__list li:first-of-type {
+        width: 600px !important;
+    }
+    .spring__list li {
+        width: 295px !important;
+    }
+    .spring__list li:nth-child(7) {
+        width: 295px !important;
+    }
+}
+
+@media(max-width:572px) {
+
+    .spring__list li:first-of-type {
+        width: 500px !important;
+    }
+    .spring__list li {
+        width: 220px !important;
+    }
+    .spring__list li:nth-child(7) {
+        width: 220px !important;
+    }
+}
+
+@media(max-width:528px) {
+    .spring__list li:first-of-type {
+        width: 400px !important;
+    }
+    .spring__list li {
+        width: 210px !important;
+    }
+    .spring__list li:nth-child(7) {
+        width: 210px !important;
+    }
+}
+
+@media(max-width:495px) {
+    .spring__list li:first-of-type {
+        width: 420px !important;
+    }
+    .spring__list li {
+        width: 210px !important;
+    }
+    .spring__list li:nth-child(7) {
+        width: 210px !important;
+    }
+}
+
+@media(max-width:450px) {
+    .spring__list li:first-of-type {
+        width: 400px !important;
+    }
+    .spring__list li {
+        width: 400px !important;
+    }
+    .spring__list li:nth-child(7) {
+        width: 400px !important;
+    }
+}
+
+@media(max-width:426px) {
+    .spring__list li:first-of-type {
+        width: 400px !important;
+    }
+    .spring__list li {
+        width: 400px !important;
+    }
+    .spring__list li:nth-child(7) {
+        width: 400px !important;
+    }
+}
+
+@media(max-width:401px) {
+    .spring__list li:first-of-type {
+        width: 380px !important;
+    }
+    .spring__list li {
+        width: 380px !important;
+    }
+    .spring__list li:nth-child(7) {
+        width: 380px !important;
+    }
+}
+
+@media(max-width:376) {
+    .spring__list li:first-of-type {
+        width: 380 !important;
+    }
+    .spring__list li {
+        width: 380px !important;
+    }
+    .spring__list li:nth-child(7) {
+        width: 380px !important;
+    }
+}
+
+
+
+/* Это для весны */
+.spring__container {
+    max-width: 1280px;
+    height: 580px;
+    position: relative;
+    
+}
+
+.spring__container__inner {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 931px;
+    height: 400px;
+    position: absolute;
+    top: 15%;
+    left: 17%;
+}
+
+.spring__img {
+    position: absolute;
+}
+
+.spring__img--1 {
+    bottom: 0;
+    left: 20px;
+}
+
+.spring__img--2 {
+    left: 0px;
+    bottom: 0;
+}
+
+.spring__img--3 {
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+@media(max-width:1124px) {
+    .spring__img--1 {
+        left: -3px;
+    }
+    .spring__img--2  {
+        bottom: 15px;
+    }
+    .spring__container__inner {
+        left: 14%;
+    }
+}
+
+@media(max-width:1124px) {
+    .spring__container__inner {
+        left: 7%;
+    }
+}
+
+
+@media(max-width:769px) {
+    .spring__container__inner {
+        left: 0%;
+    }
+}
+
+
+
+.sw-swiper-button-next.sw-swiper-button-arrow-type2, .sw-swiper-button-prev.sw-swiper-button-arrow-type2 {
+    color: rgb(54 168 221);
+    font-weight: 600;
+}
+
+@media(max-width:769px) {
+    .sw-swiper-button-next.sw-swiper-button-arrow-type2, .sw-swiper-button-prev.sw-swiper-button-arrow-type2 {
+        display: none;
+    }
+}
+
+.sw-swiper-button-next, .sw-swiper-button-prev {
+    color: rgb(54 168 221);
+    font-weight: 600;
+    
+}
+
+.sw-swiper-button-prev {
+    left: -23px !important;
+    transition: all .5s ease-in-out !important;
+}
+
+.sw-swiper-button-next {
+    right: -25px !important;
+    transition: all .5s ease-in-out !important;
+}
+.sw-swiper-button-prev:hover, .sw-swiper-button-next:hover {
+    background-color: rgb(54 168 221);
+}
+
+.sw-review-item {
+    /* max-height: max-content; */
+    /* min-height: auto; */
+    height: -webkit-fill-available;
+}

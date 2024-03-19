@@ -1,0 +1,15 @@
+.btn__main, .btn__main__white {
+  transition: all .5s ease-in-out;
+}
+
+.btn__main__white:hover {
+  color: #333;
+}
+
+.btn__main:hover {
+  background-color: #2E9BCF;
+}
+
+.btn__main__white {
+  color: #2E9BCF;
+}
