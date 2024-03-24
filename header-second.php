@@ -85,23 +85,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <img class="md:hidden block bg-bg-gray p-2 rounded-md" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/sap.svg'; ?>" alt="" >
                         </a>
         
-                        <li class="mr-4 flex items-center justify-center sm:gap-0 xs:gap-0 gap-0 md:gap-2 transform hover:scale-105 transition-all">
+                        <li class="flex items-center justify-center sm:gap-0 xs:gap-0 gap-0 md:gap-2 transform hover:scale-105 transition-all">
                             <img class="icons" src="<?php echo get_template_directory_uri() .'/img/new_img/icons/call.svg'; ?>" alt="">
                             <a class="text-black font-bold nav-link" href="tel:+79532109127">
                                 +7-953-210-91-27
                             </a>
                         </li>
                         
-                        <li class="mr-4 list-none">
+                        <li class="list-none">
                             <a href="https://www.instagram.com/geometry_nhk/">
                                 <img class="transform hover:scale-105 icons transition-all p-2" src="<?php echo get_template_directory_uri() .'/img/new_img/icons/inst.svg'; ?>" alt="" >
                             </a>
                         </li>
         
-                        <li class="mr-4 list-none">
+                        <li class="list-none">
                             <a class="nav-link" href="https://api.whatsapp.com/send/?phone=79532109127">
                             <img class="transform hover:scale-105 icons  transition-all p-2" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/sap.svg'; ?>" alt="" >
                             </a>
+                        </li>
+
+                           
+                        <li class="mr-4 list-none">
+                            <a href="https://t.me/geometry_nhk">
+                                    <img class="transform hover:scale-105 shadow-black hover:shadow-2xl transition-all" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/tg.svg'; ?>">
+                                </a>
                         </li>
         
                         <a class="text-white font-semibold bg-blue button__padding btn__main popup-link" href="#popup1">
@@ -133,6 +140,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </a>
                         </li>
 
+                        <li class="hidden xs:hidden mr-4 sm:flex md:hidden">
+                            <a href="https://t.me/geometry_nhk">
+                                <img class="transform hover:scale-105 transition-all p-2 icons" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/tg.svg'; ?>">
+                            </a>
+                        </li>
+
+                        
                         <button class="btn__menu--mobile md:hidden flex">
                                 <svg class="h-3 w-3" viewBox="0 0 64 48">
                                     <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
@@ -159,7 +173,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                                 
                             <ul class="flex justify-start padding__bottom__link">
-                                <li class="mr-2 list-none pt-2 pb-5 gap-2">
+                                <li class="mr-4 list-none pt-2 pb-5 gap-2">
                                     <a href="https://www.instagram.com/geometry_nhk/">
                                         <img class="" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/inst__white.svg'; ?>" alt="" >
                                     </a>
@@ -168,6 +182,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <li class="mr-4 list-none pt-2 pb-5 gap-2 padding__bottom__link">
                                     <a href="https://api.whatsapp.com/send/?phone=79532109127">
                                         <img class="" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/sap__white.svg'; ?>" alt="" >
+                                    </a>
+                                </li>
+                                <li class="mr-4 list-none pt-2 pb-5 gap-2 padding__bottom__link">
+                                    <a href="https://t.me/geometry_nhk">
+                                        <img class="" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/tg__white.svg'; ?>" alt="" >
                                     </a>
                                 </li>
                             </ul>

@@ -32,6 +32,10 @@
   z-index: -100 !important;
 }
 
+.install__list.gallery-wrapper li img {
+  width: -webkit-fill-available;
+}
+
 
 .arrow__slide__install {
   position: absolute !important;
@@ -807,12 +811,38 @@
 @media(max-width:480px) {
   .main__image {
     padding: 20px;
-    height: 58vh;
+    height: 55vh;
+    object-fit: cover;
   }
 }
 
 /* Это для галереи */
+.spring__list li img{
+  height: 360px;
+}
 
+@media(max-width:769px) {
+  .spring__list li img {
+    height: 320px;
+  }
+  
+}
+
+@media(max-width:480px) {
+  .spring__list li img{
+    height: 260px;
+    object-fit: cover;
+  }
+  
+}
+
+@media(max-width:375px) {
+  .spring__list li img{
+    height: 220px;
+    object-fit: cover;
+  }
+  
+}
 
 .spring__list {
   justify-content: center;
@@ -1065,7 +1095,7 @@
 }
 
 .projects__list li img {
-  width: -webkit-fill-available;
+  width: -webkit-fill-available !important;
 }
 
 .services__list {
@@ -2561,7 +2591,7 @@ h2, h3 {
 
 .arrows__slider {
   position: absolute;
-  top: 50%;
+  top: 70% !important;
   left: -22px;
   right: -22px;
   transform: translateY(-50%);

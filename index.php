@@ -37,7 +37,7 @@ get_header();
                 </section>
 
                 <!-- Качество -->
-                <section class="pt-11 md:pt-24">
+                <!-- <section class="pt-11 md:pt-24">
                     <div class="container">
                         <h2 class="py-10 text-center">Честно исполняем обязательства и следим за <span class="py-2 px-5 bg-blue rounded-xl text-white">качеством работ</span></h2>
                         <div class="grid reason__list gap-3">
@@ -63,8 +63,34 @@ get_header();
                             </div>
                         </div>
                     </div>
+                </section> -->
+                <section class="pt-11 md:pt-24">
+                    <div class="container">
+                        <h2 class="py-10 text-start text-lg sm:text-2xl md:text-4xl">Причины заказать потолки у Геометрии:</h2>
+                        <div class="grid reason__list gap-3">
+                            <div class="p-10 bg-light-blue rounded-xl flex flex-col justify-center items-center transform hover:shadow-xl shadow-black hover:scale-105 transition-all">
+                                <img src="<?php echo get_template_directory_uri() . '/img/new_img/icons/quality1.svg'; ?>" alt="картинка"> 
+                                <p class="text-center pt-2 font-semibold text-xl md:text-2xl">Качество</p>
+                                <p class="text-center pt-2 font-light text-black opacity-70 text-base">Гарантия 15 лет</p>
+                            </div>
+                            <div class="p-10 bg-light-blue rounded-xl flex flex-col justify-center items-center transform hover:shadow-xl shadow-black hover:scale-105 transition-all">
+                                <img src="<?php echo get_template_directory_uri() . '/img/new_img/icons/quality3.svg'; ?>" alt="картинка"> 
+                                <p class="text-center pt-2 font-semibold text-xl md:text-2xl">Скорость</p>
+                                <p class="text-center pt-2 font-light text-black opacity-70 text-base">Выполним монтаж за 2—3 часа</p>
+                            </div>
+                            <div class="p-10 bg-light-blue rounded-xl flex flex-col justify-center items-center transform hover:shadow-xl shadow-black hover:scale-105 transition-all">
+                                <img src="<?php echo get_template_directory_uri() . '/img/new_img/icons/quality2.svg'; ?>" alt="картинка"> 
+                                <p class="text-center pt-2 font-semibold text-xl md:text-2xl">Сервисное обслуживание</p>
+                                <!-- <p class="text-center pt-2 font-light text-black opacity-70 text-base">Безопасно для электропроводки</p> -->
+                            </div>
+                            <div class="p-10 bg-light-blue rounded-xl flex flex-col justify-center items-center transform hover:shadow-xl shadow-black hover:scale-105 transition-all">
+                                <img src="<?php echo get_template_directory_uri() . '/img/new_img/icons/quality5.svg'; ?>" alt="картинка"> 
+                                <p class="text-center pt-2 font-semibold text-xl md:text-2xl">Контроль качества</p>
+                                <!-- <p class="text-center pt-2 font-light text-black opacity-70 text-base">После себя не оставляем грязи и мусора</p> -->
+                            </div>
+                        </div>
+                    </div>
                 </section>
-
                 <!-- Галерея -->
                 <section class="pt-9 md:pt-24">
                     <div class="container">
@@ -76,62 +102,61 @@ get_header();
                             </li>
                             <li class="p-2 rounded-xl hover:shadow-xl shadow-black transform hover:scale-105 transition-all">
                                 <a href="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_3.png'; ?>">
-                                    <img class="transition-all rounded-xl object-cover h-[250px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_3.png'; ?>" data-caption="Image caption">
+                                    <img class="transition-all rounded-xl object-fill h-[360px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_3.png'; ?>" data-caption="Image caption">
                                 </a>
                                <p class="text-black opacity-70 text-base">Теневой потолок Eurokraab
                                 от 1400 руб. м/пог.</p>
-                            </li>
-                            <li class="p-2 rounded-xl hover:shadow-xl shadow-black transform hover:scale-105 transition-all">
-                                <a href="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_2.png'; ?>">
-                                    <img class="object-cover rounded-xl  h-[250px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_2.png'; ?>" data-caption="Image caption">
-                                </a>
-                               <p class="text-black opacity-70 text-base">Парящий потолок
-                                от 1500 руб. м/кв.</p>
-                            </li>
-                            <li class="p-2 rounded-xl hover:shadow-xl shadow-black transform hover:scale-105 transition-all">
-                                <a href="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_7.png'; ?>">
-                                    <img class="object-cover rounded-xl h-[250px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_7.png'; ?>" data-caption="Image caption">
-                                </a>
-                               <p class="text-black opacity-70 text-base">Тканевые потолки Descor  
-                                от 2000р/м в кв</p>
-                            </li>
+                            </li>                      
                             <li class="p-2 rounded-xl hover:shadow-xl shadow-black transform hover:scale-105 transition-all">           
                                 <a href="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_6.png'; ?>">                 
-                                    <img class="object-cover rounded-xl  h-[250px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_6.png'; ?>" data-caption="Image caption">
+                                    <img class="object-fill rounded-xl  h-[360px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_6.png'; ?>" data-caption="Image caption">
                                 </a>
                                 <p class="text-black opacity-70 text-base">Трековые системы
                                     от 1000 руб. м/пог.</p>
                             </li>
                             <li class="p-2 rounded-xl hover:shadow-xl shadow-black transform hover:scale-105 transition-all">
                                 <a href="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_4.png'; ?>">
-                                    <img class="object-cover rounded-xl w-full h-[250px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_4.png'; ?>" data-caption="Image caption">
+                                    <img class="object-fill rounded-xl w-full h-[360px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_4.png'; ?>" data-caption="Image caption">
                                 </a>
                                <p class="text-black opacity-70 text-base">Световая линия
                                 3000 руб. м/пог.</p>
                             </li>
                             <li class="p-2 rounded-xl hover:shadow-xl shadow-black transform hover:scale-105 transition-all">
-                                <a href="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_5.png'; ?>">
-                                    <img class="rounded-xl w-full object-cover h-[250px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_5.png'; ?>" data-caption="Image caption">
+                                <a href="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_7.png'; ?>">
+                                    <img class="object-fill rounded-xl h-[360px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_7.png'; ?>" data-caption="Image caption">
                                 </a>
-                               <p class="text-black opacity-70 text-base">Контурный потолок
-                            </p>
+                               <p class="text-black opacity-70 text-base">Тканевые потолки Descor  
+                                от 2000р/м в кв</p>
                             </li>
                             <li class="p-2 rounded-xl hover:shadow-xl shadow-black transform hover:scale-105 transition-all">
                                 <a href="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_8.png'; ?>">
-                                    <img class="object-cover rounded-xl h-[250px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_8.png'; ?>" data-caption="Image caption">
+                                    <img class="object-fill rounded-xl h-[360px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_8.png'; ?>" data-caption="Image caption">
                                 </a>
                                <p class="text-black opacity-70 text-base">Классический потолок с белой вставкой
                                 от 700 руб. м/кв.</p>
                             </li>
                             <li class="p-2 rounded-xl hover:shadow-xl shadow-black transform hover:scale-105 transition-all">
+                                <a href="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_2.png'; ?>">
+                                    <img class="object-fill rounded-xl  h-[360px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_2.png'; ?>" data-caption="Image caption">
+                                </a>
+                               <p class="text-black opacity-70 text-base">Парящий потолок
+                                от 1500 руб. м/кв.</p>
+                            </li>
+                            <li class="p-2 rounded-xl hover:shadow-xl shadow-black transform hover:scale-105 transition-all">
+                                <a href="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_5.png'; ?>">
+                                    <img class="rounded-xl w-full object-fill h-[360px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_5.png'; ?>" data-caption="Image caption">
+                                </a>
+                               <p class="text-black opacity-70 text-base">Контурный потолок
+                                </p>
+                            </li>
+                            <li class="p-2 rounded-xl hover:shadow-xl shadow-black transform hover:scale-105 transition-all">
                                 <a href="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_1.png'; ?>">
-                                    <img class=" rounded-xl object-cover h-[250px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_1.png'; ?>" data-caption="Image caption">
+                                    <img class=" rounded-xl object-fill h-[360px] pb-2" src="<?php echo get_template_directory_uri() . '/img/new_img/gallery/gallery_1.png'; ?>" data-caption="Image caption">
                                 </a>
                                <p class="text-black opacity-70 text-base">Двухуровневый потолк
                                 от 2000 руб. м/кв.</p>
                             </li>
                         </ul>
-       
                     </div>
                 </section>
                 
@@ -185,52 +210,40 @@ get_header();
                     </div>
                 </section> 
 
-                <!-- Проекты в Находке -->
-                <section class="page-section-3 pt-8 md:pt-24">
-                    <div class="container">   
-                        <div class=" rounded-xl">
-                            <h2 class='text-center py-10'><span class="py-2 pattern__blue bg-blue rounded-xl text-white">Каждый пятый </span>натяжной потолок в Находке сделан нашей компанией</h2>
-                            <div class="flex justify-center items-center gap-5 flex-wrap projects__list gallery-wrapper">
-                                <div class="transform shadow-black hover:shadow-2xl hover:scale-105 transition-all">
-                                     <a href="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh1.png'; ?>">
-                                        <img class=" rounded-xl object-cover xs:h-[317px] sm:h-[370px] md:h-[350px]" src="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh1.png'; ?>" data-caption="Image caption">
-                                    </a>
-                                </div>
+                <!-- Проекты в находке -->
+                <section class="pt-8 md:pt-24 project">
+                    <div class="container relative">   
 
-                                <div class="transform shadow-black hover:shadow-2xl hover:scale-105 transition-all">    
-                                    <a href="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh2.png'; ?>">
-                                        <img class=" rounded-xl object-cover xs:h-[317px] sm:h-[370px] md:h-[350px]" src="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh2.png'; ?>" data-caption="Image caption">
-                                    </a>
-                                </div> 
-                                <div class="transform shadow-black hover:shadow-2xl hover:scale-105 transition-all">
-                                     <a href="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh3.png'; ?>">
-                                    <img class=" rounded-xl object-cover xs:h-[317px] sm:h-[370px] md:h-[350px]" src="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh3.png'; ?>" data-caption="Image caption">
-                                </a>
-                                </div>
-                                <div class="transform shadow-black hover:shadow-2xl hover:scale-105 transition-all">
-                                     <a href="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh4.png'; ?>">
-                                    <img class=" rounded-xl object-cover xs:h-[317px] sm:h-[370px] md:h-[350px]" src="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh4.png'; ?>" data-caption="Image caption">
-                                </a>
-                                </div>
-                                <div class="transform shadow-black hover:shadow-2xl hover:scale-105 transition-all">
-                                     <a href="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh5.png'; ?>">
-                                    <img class=" rounded-xl object-cover xs:h-[317px] sm:h-[370px] md:h-[350px]" src="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh5.png'; ?>" data-caption="Image caption">
-                                </a>
-                                </div>
-                                <div class="transform shadow-black hover:shadow-2xl hover:scale-105 transition-all">
-                                     <a href="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh6.png'; ?>">
-                                    <img class=" rounded-xl object-cover xs:h-[317px] sm:h-[370px] md:h-[350px]" src="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh6.png'; ?>" data-caption="Image caption">
-                                </a>
-                                </div>
-                                <div class="transform shadow-black hover:shadow-2xl hover:scale-105 transition-all">
-                                     <a href="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh7.png'; ?>">
-                                    <img class=" rounded-xl object-cover xs:h-[317px] sm:h-[370px] md:h-[350px]" src="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh7.png'; ?>" data-caption="Image caption">
-                                </a>
-                                </div>
-                                <div class="transform shadow-black hover:shadow-2xl hover:scale-105 transition-all">
-                                     <a href="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh8.png'; ?>">
-                                    <img class=" rounded-xl object-cover xs:h-[317px] sm:h-[370px] md:h-[350px]" src="<?php echo get_template_directory_uri() . '/img/new_img/projectHakh/prjctHakh8.png'; ?>" data-caption="Image caption">
-                                </a>
+                        <div class="arrows__slider">             
+                            <button
+                                class="project-prev rounded-full bg-yellow p-4">
+                                <img src="<?php echo get_template_directory_uri() . '/img/new_img/icons/arrow_prev.svg'; ?>" alt="влево">
+                            </button>
+                            <button
+                                class="project-next rounded-full bg-yellow p-4">
+                                <img src="<?php echo get_template_directory_uri() . '/img/new_img/icons/arrow_next.svg'; ?>"alt="вправо" >
+                            </button>
+                        </div>
+                            <h2 class='text-center py-10'><span class="py-2 pattern__blue bg-blue rounded-xl text-white">Каждый пятый </span>натяжной потолок в Находке сделан нашей компанией</h2>
+                                <div class="flex justify-center items-center gap-10 flex-wrap project-swiper swiper">
+                                    <ul class="swiper-wrapper max-h-full install__list gallery-wrapper">
+
+
+                                    <?php
+                                        $photos = get_field('prjctHakh');
+                                        if ($photos) {
+                                            foreach ($photos as $photo) {
+                                                echo '<li class="swiper-slide">';
+                                                echo '<a href="' . esc_url($photo['url']) . '">';
+                                                echo '<img class="rounded-xl object-cover xs:h-[317px] sm:h-[370px] md:h-[350px]m" src="' . esc_url($photo['url']) . '" alt="">';
+                                                echo '</a>';
+                                                echo '</li>';
+                                            }
+                                        } else {
+                                            echo 'No photos found.'; 
+                                        }
+                                        ?>
+                                    </ul> 
                                 </div>
                             </div>
                         </div>
@@ -306,7 +319,7 @@ get_header();
                     
 
                             <script src="https://res.smartwidgets.ru/app.js" defer></script>
-                            <div class="sw-app" data-app="19b4ca96eb7aeeb726205633e20829d2"></div>
+                            <div class="sw-app" data-app="71e4438fe9387438b1a32b5ad861100b"></div>
 
                             <script>
                             const initElement = () => {
@@ -354,7 +367,7 @@ get_header();
                                     <img class="transform hover:scale-105 shadow-black hover:shadow-2xl transition-all" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/sap.svg'; ?>">
                                 </a>
                                 
-                                <a href="https://api.whatsapp.com/send/?phone=79532109127">
+                                <a href="https://www.instagram.com/geometry_nhk/">
                                 <img class="transform hover:scale-105 shadow-black hover:shadow-2xl transition-all" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/inst.svg'; ?>">
                                 </a>
 
@@ -362,7 +375,7 @@ get_header();
                                     <img class="transform hover:scale-105 shadow-black hover:shadow-2xl transition-all" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/tg.svg'; ?>">
                                 </a>
 
-                                <a href="https://api.whatsapp.com/send/?phone=79532109127">
+                                <a href="https://vk.com/geometry_nhk">
                                     <img class="transform hover:scale-105 shadow-black hover:shadow-2xl transition-all" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/vk.svg'; ?>">
                                 </a>
 

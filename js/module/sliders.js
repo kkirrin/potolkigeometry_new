@@ -37,6 +37,49 @@ export const initSlider = () => {
         });
     }
 }
+export const initProjectSlider = () => {
+
+    // слайдер "Категории"
+    const category = document.querySelector('.project');
+    console.log('Я тут')
+    if (category) {
+        const item = new Swiper('.project-swiper', {
+            loop: false,
+            spaceBetween: 30,
+            speed: 1500,
+            breakpoints: {
+                320: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 20,
+                },
+                374: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 20,
+                },
+                480: {
+                    slidesPerView: 1.4,
+                    spaceBetween: 20,
+                },
+                767: {
+                    slidesPerView: 2,
+                },
+                1023: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+            },
+            navigation: {
+                nextEl: '.project-next',
+                prevEl: '.project-prev',
+            },
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+        });
+    }
+}
 export const initReviewSlider = () => {
 
     // слайдер "Категории"

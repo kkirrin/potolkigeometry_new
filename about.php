@@ -111,7 +111,7 @@ get_header('second');
                                 <img class="h-[320px] rounded-2xl w-[290px] object-cover" src="<?php echo get_template_directory_uri() . '/img/new_img/man_2.jpeg'; ?>" alt="тут будет фото сотрудника">
                             </div>
                             <p class="font-semibold py-4">Рахвалов Роман Алексеевич </p>
-                            <p class="pb-2" style="text-wrap: balance;">Специалист монтажного производства</p>
+                            <p class="pb-2" style="text-wrap: balance;">Менеджер по продажам</p>
                         </div>
 
                         <div class="flex justify-center items-center flex-col">   
@@ -165,7 +165,7 @@ get_header('second');
                                     <img class="transform hover:scale-105 shadow-black hover:shadow-2xl transition-all" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/sap.svg'; ?>">
                                 </a>
                                 
-                                <a href="https://api.whatsapp.com/send/?phone=79532109127">
+                                <a href="https://www.instagram.com/geometry_nhk/">
                                 <img class="transform hover:scale-105 shadow-black hover:shadow-2xl transition-all" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/inst.svg'; ?>">
                                 </a>
 
@@ -173,7 +173,7 @@ get_header('second');
                                     <img class="transform hover:scale-105 shadow-black hover:shadow-2xl transition-all" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/tg.svg'; ?>">
                                 </a>
 
-                                <a href="https://api.whatsapp.com/send/?phone=79532109127">
+                                <a href="https://vk.com/geometry_nhk">
                                     <img class="transform hover:scale-105 shadow-black hover:shadow-2xl transition-all" src="<?php echo get_template_directory_uri() . '/img/new_img/icons/vk.svg'; ?>">
                                 </a>
                             </div>

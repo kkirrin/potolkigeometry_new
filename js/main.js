@@ -5,6 +5,7 @@ import { initPopup } from "./module/popup.js";
 import { initStickyHeader } from './module/sticky-header.js';
 import { initMobileMenu } from "./module/mobileMenu.js";
 import { initReviewSlider } from "./module/sliders.js";
+import { initProjectSlider } from "./module/sliders.js";
 
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -17,6 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
     initMobileMenu();   
     initSlider(); 
     initReviewSlider();
+    initProjectSlider();
 
 
 });
