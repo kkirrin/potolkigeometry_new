@@ -358,7 +358,7 @@ get_header();
                             </div>
                             <div class="transform hover:scale-105 transition-all flex gap-2 justify-center items-center">
                                 <img src="<?php echo get_template_directory_uri() . '/img/new_img/icons/email.svg'; ?>">
-                                <a class="font-medium" href="mailto:geometry@info.com">geometry@info.com</a>
+                                <a class="font-medium" href="mailto:geometry.z2023@mail.ru">geometry.z2023@mail.ru</a>
                             </div>
                             <div class="flex gap-3">
                                 <a href="https://api.whatsapp.com/send/?phone=79532109127">
