@@ -162,22 +162,20 @@ get_header();
                 
                 
                 <!-- Весенняя акция -->
-                 <section class="pt-9 md:pt-24">
-                    <div class="container bg-light-bg-blue rounded-3xl relative overflow-hidden">   
-                        <img class="spring__img spring__img--1" src="<?php echo get_template_directory_uri() . '/img/new_img/spring/left.png'; ?>" alt="левая часть">
-                        <img class="spring__img spring__img--2" src="<?php echo get_template_directory_uri() . '/img/new_img/spring/main.png'; ?>" alt="главная часть">
-                        <img class="spring__img spring__img--3" src="<?php echo get_template_directory_uri() . '/img/new_img/spring/pattern.png'; ?>" alt="цветок">
-                        <div class="spring__container">
-                            <div class="spring__container__inner bg-white rounded-3xl flex flex-col justify-center items-center">
+                <section class="pt-9 md:pt-24">
+                    <div class="container rounded-3xl relative overflow-hidden">
+                        <div class="spring__container relative">
+                            <img src="<?php echo get_template_directory_uri() . '/img/new_img/bg-spring.png'; ?>" alt="" class="absolute inset-0 w-full h-full object-cover rounded-3xl">
+                            <div class="spring__container__inner bg-white flex flex-col justify-center items-center">
                                 <h2>Весенняя акция</h2>
-                                <p>Успейте заказать монтаж потолков до конца мая и мы установим софиты бесплатно</p>
-                                <a class="text-white rounded-xl bg-blue p-4 mt-5 font-bold btn__main popup-link" href="#popup1">
+                                <p class="text-center">Успейте заказать монтаж потолков до конца мая <br> и мы установим софиты бесплатно</p>
+                                <a style="margin-bottom: -30px;" class="text-white rounded-xl bg-blue p-4 mt-5 font-bold btn__main popup-link" href="#popup1">
                                     Бесплатный замер
                                 </a>
                             </div>
                         </div>
                     </div>
-                </section> 
+                </section>
 
                 <!-- Дополнительные услуги -->
                  <section class="page-section-2 pt-8 md:pt-24">

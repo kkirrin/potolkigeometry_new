@@ -143,7 +143,7 @@ function potolkigeometry_scripts() {
 	// wp_enqueue_style( 'potolkigeometry-style', get_stylesheet_uri(), array(), _S_VERSION );
 
 	// Подключу новый стиль
-	wp_enqueue_style('main', get_template_directory_uri() . '/css/main.css','', '3.3');
+	wp_enqueue_style('main', get_template_directory_uri() . '/css/main.css','', '3.4');
 
 	// подключаем файл baguetteBox.css
 	wp_enqueue_style('baguetteBox-css', get_template_directory_uri() . '/css/baguetteBox.min.css', '', '3.2');

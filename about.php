@@ -135,12 +135,11 @@ get_header('second');
                 <!-- Баннер -->
                 <section class="relative h-[600px] pt-6 sm:pt-12 md:pt-14">
                     <img class="banner__img__main h-[600px]" src="<?php echo get_template_directory_uri() . '/img/new_img/bg-final.png'; ?>">
-                    <img class="woman__img z-0 absolute h-[600px] left-24" src="<?php echo get_template_directory_uri() . '/img/new_img/woman.png'; ?>" alt="женщина">
-                    <div class="container relative">
 
+                    <div class="container relative flex justify-center">
                         <div class="absolute banner__container__top">
-                            <h2 class="text-start text-white pt-4">Клиенты доверяют нам <br><span class="py-2 px-5 bg-blue rounded-xl text-white">не первый год</span></h2>
-                            <p class="text-start text-white py-5">Доверьтесь и вы! Запишитесь на бесплатный замер, <br> наш мастер приедет к вам в ближайшее свободное время</p>
+                            <h2 class="text-center text-white pt-4">Клиенты доверяют <br> нам <span class="py-2 px-5 bg-blue rounded-xl text-white">не первый год</span></h2>
+                            <p class="text-center text-white py-10">Доверьтесь и вы! Запишитесь на бесплатный замер, <br> наш мастер приедет к вам в ближайшее свободное время</p>
                                 <?php echo do_shortcode('[contact-form-7 id="534" title="Заявка в футере"]'); ?>
 
                         </div>

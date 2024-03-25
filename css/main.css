@@ -1000,18 +1000,31 @@
 
 .spring__container {
   max-width: 1280px;
-  height: 580px;
+  min-height: 580px;
   position: relative;
+}
+
+@media(max-width:480px) {
+  .spring__container {
+    min-height: 450px;
+  }
+}
+
+
+.spring__container img {
+  height: -webkit-fill-available;
+  z-index: -1;
 }
 
 .spring__container__inner {
   padding: 20px;
-  margin: 0 auto;
-  max-width: 931px;
-  height: 400px;
+  /* margin: 0 auto; */
+  /* max-width: auto; */
+  height: 200px;
   position: absolute;
-  top: 15%;
-  left: 17%;
+  top: 31%;
+  /* left: 17%; */
+  width: -webkit-fill-available;
 }
 
 .spring__img {
@@ -2762,7 +2775,7 @@ h2, h3 {
 }
 
 .banner__container__top {
-  right: 0;
+  /* right: 0; */
 }
 
 .hover\:scale-105:hover{
