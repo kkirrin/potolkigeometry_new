@@ -7,16 +7,19 @@ export const initMobileMenu = () => {
         console.log('Я Тут')
     
         const mobileMenuLinks = document.querySelectorAll('.mobile-menu a');
+        console.log(mobileMenuLinks)
         const menuLinks = document.querySelectorAll('.menu a');
     
         mobileMenuLinks.forEach(link => {
             link.addEventListener('click', (evt) => {
                 body.classList.remove('lock');
+                mobileMenu.classList.remove('is-active');
+                mobileMenuButton.classList.remove('active'); 
             });
         });
 
         mobileMenuButton.addEventListener('click', (evt) => {
-            evt.preventDefault();
+            // evt.preventDefault();
             mobileMenuButton.classList.toggle('active');
             mobileMenu.classList.toggle('is-active');
             body.classList.toggle('lock');

@@ -209,7 +209,7 @@ get_header();
                 </section> 
 
                 <!-- Проекты в находке -->
-                <section class="pt-8 md:pt-24 project">
+                <section class="pt-8 md:pt-24 project page-section-3">
                     <div class="container relative">   
 
                         <div class="arrows__slider">             

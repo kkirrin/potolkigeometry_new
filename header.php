@@ -232,10 +232,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     ]); 
                                 ?> -->
                                     <ul>
-                                        <li class="text-white pt-2 pb-5 nav-link"><a href="/about_company">О нас</a></li>
-                                        <li class="text-white pt-2 pb-5 nav-link">Услуги</li>
-                                        <li class="text-white pt-2 pb-5 nav-link">Выполненные проекты</li>
-                                        <li class="text-white pt-2 pb-5 nav-link">Отзывы</li>
+                                        <li class="text-white pt-2 pb-5 nav-link"><a class="text-white pt-2 pb-5 nav-link " href="/about_company">О нас</a></li>
+                                        <li class="text-white pt-2 pb-5"><a class="text-white pt-2 pb-5 nav-link" href="#"
+                                        data-goto=".page-section-2">Услуги</a></li>
+                                        <li class="text-white pt-2 pb-5"'><a class="text-white pt-2 pb-5 nav-link" href="#"
+                                        data-goto=".page-section-3">Выполненные проекты</a></li>
+                                        <li class="text-white pt-2 pb-5"><a class="text-white pt-2 pb-5 nav-link" href="#"
+                                        data-goto=".page-section-4">Отзывы</a></li>
 
                                         <li class="mr-4 flex pt-2 pb-5 gap-2">
                                             <img src="<?php echo get_template_directory_uri() . '/img/new_img/icons/call__white.svg'; ?>" alt="">

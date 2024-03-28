@@ -160,7 +160,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="mobile-menu">
                         <div class="container">
                             <ul>
-                                <li class="text-white pt-2 pb-5 nav-link"><a href="/about_company">На главную</a></li>
+                                <li class="text-white pt-2 pb-5 nav-link"><a href="/">На главную</a></li>
                                 
 
                                 <li class="mr-4 flex pt-2 pb-5 gap-2">
